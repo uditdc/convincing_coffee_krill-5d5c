@@ -1,4 +1,4 @@
-name = "template_name"
+name = "convincing_coffee_krill-5d5c"
 version = "1.0.0"
 
 [deployment]
@@ -7,10 +7,10 @@ nodes = 1
 
 [build]
 dir = "build"
-entry = "template_name_debug.wasm"
+entry = "convincing_coffee_krill-5d5c_debug.wasm"
 command = "npm run build:debug"
 
 [build_release]
 dir = "build"
-entry = "template_name.wasm"
+entry = "convincing_coffee_krill-5d5c.wasm"
 command = "npm run build:release"
